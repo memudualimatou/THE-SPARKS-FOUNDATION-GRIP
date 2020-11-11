@@ -6,8 +6,8 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 
 # Importing the dataset
-data_url='https://raw.githubusercontent.com/memudualimatou/THE-SPARKS-FOUNDATION-GRIP/master/Iris.csv'
-data = pd.read_csv(data_url,sep=",")
+data_urls='https://raw.githubusercontent.com/memudualimatou/THE-SPARKS-FOUNDATION-GRIP/master/Iris.csv'
+data = pd.read_csv(data_urls,sep=",")
 
 st.markdown("<h1 style='text-align: center; color: green; margin-bottom=0'>Iris Classification Web Application<h1>",
             unsafe_allow_html=True)
